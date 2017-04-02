@@ -1,0 +1,16 @@
+[
+{
+  "modid": "rotf",
+  "name": "Reprise of the Fallen",
+  "description": "Adds customizations for the Reprise of the Fallen modpack and server.",
+  "version": "${version}",
+  "mcversion": "${mcversion}",
+  "url": "",
+  "updateUrl": "",
+  "authorList": ["Kyahco"],
+  "credits": "The Forge and FML guys, for making this example",
+  "logoFile": "",
+  "screenshots": [],
+  "dependencies": []
+}
+]
