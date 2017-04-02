@@ -2,6 +2,8 @@ package com.kyahco.rotf;
 
 import com.kyahco.rotf.common.common.BlockBitcoinOre;
 import com.kyahco.rotf.common.item.ItemBitcoinium;
+import com.kyahco.rotf.common.world.WordlGenBitcoinium;
+import cpw.mods.fml.common.IWorldGenerator;
 import net.minecraft.block.Block;
 import net.minecraft.init.Blocks;
 import cpw.mods.fml.common.Mod;
@@ -21,6 +23,7 @@ public class RotfMod
 
     public static Block blockBitcoinOre;
     public static Item itemBitcoinium;
+    public static IWorldGenerator wordlGenBitcoinium;
 
 
     @EventHandler
@@ -32,6 +35,9 @@ public class RotfMod
         GameRegistry.registerBlock(blockBitcoinOre, "BitcoinOre");
 
         GameRegistry.addSmelting(new ItemStack(RotfMod.blockBitcoinOre), new ItemStack(RotfMod.itemBitcoinium), 0.1F);
+
+        wordlGenBitcoinium = new WordlGenBitcoinium();
+        GameRegistry.registerWorldGenerator(wordlGenBitcoinium, 0);
     }
 
     @EventHandler

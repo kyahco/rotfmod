@@ -2,10 +2,10 @@
 {
   "modid": "rotf",
   "name": "Reprise of the Fallen",
-  "description": "Adds customizations for the Reprise of the Fallen modpack and server.",
+  "description": "A Custom Minecraft mod for the Reprise of the Fallen modpack and server.",
   "version": "${version}",
   "mcversion": "${mcversion}",
-  "url": "",
+  "url": "https://github.com/kyahco/rotfmod",
   "updateUrl": "",
   "authorList": ["Kyahco"],
   "credits": "The Forge and FML guys, for making this example",
