@@ -7,6 +7,6 @@ ToDo
 * [x] Add Bitcoinium ore
 * [x] Add Bitcoinium
 * [x] Add smelting from Bitcoinium Ore to Bitcoinium
-* [] Add Bitcoiunium Ore texture
-* [] Add Bitcoinium texture
-* [] Add world gen for Bitcoinium Ore
+* [ ] Add Bitcoiunium Ore texture
+* [ ] Add Bitcoinium texture
+* [ ] Add world gen for Bitcoinium Ore
